@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plant | Adapted to Survive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Adapted to Survive</a>
+      <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="animal.html">Our pick</a></li>
+        <li><a href="native.html">Native animal</a></li>
+        <li><a href="endangered.html">Endangered animal</a></li>
+        <li><a href="plant.html" aria-current="page">Plant</a></li>
+        <li><a href="scavenger-hunt.html">Scavenger hunt</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <!-- ===== SPECIMEN TAG: names, photo and conservation status ===== -->
+      <section class="tag" aria-labelledby="name">
+        <div>
+          <p class="role">Plant</p>
+          <!-- EDIT: common name -->
+          <h1 id="name">Common name</h1>
+          <!-- EDIT: scientific name (genus capitalised, species lowercase, e.g. Phascolarctos cinereus) -->
+          <p class="sci">Genus species</p>
+
+          <!-- EDIT: set data-status to LC, NT, VU, EN, CR, EW or EX. -->
+          <div class="status" data-status="" data-source="IUCN Red List"></div>
+        </div>
+
+        <figure>
+          <!-- Put your photo in the images folder with exactly this file name -->
+          <div class="photo"><img src="images/plant.jpg" alt="EDIT: describe the photo, e.g. a koala asleep in the fork of a gum tree"></div>
+          <figcaption>Photographed at Melbourne Zoo by <!-- EDIT --> [your name].</figcaption>
+        </figure>
+      </section>
+
+      <div class="profile">
+        <h2>How it is adapted to survive</h2>
+        <p class="todo">One or two sentences introducing this organism for a Year 10 reader. What is it and why did you choose it?</p>
+
+      <section class="adaptation">
+        <h3><span class="kind">Structural adaptation:</span> <!-- EDIT: name the adaptation --> Name of adaptation</h3>
+        <p class="todo">Describe a structural adaptation: a physical feature of the body.</p>
+        <p class="todo">Explain how this feature increases fitness, meaning how it helps the organism survive and reproduce.</p>
+      </section>
+
+      <section class="adaptation">
+        <h3><span class="kind">Physiological adaptation:</span> <!-- EDIT: name the adaptation --> Name of adaptation</h3>
+        <p class="todo">Describe a physiological adaptation: something that happens inside the body, such as how it digests, regulates temperature or conserves water.</p>
+        <p class="todo">Explain how this increases fitness.</p>
+      </section>
+
+      <section class="adaptation">
+        <h3><span class="kind">Behavioural adaptation:</span> <!-- EDIT: name the adaptation --> Name of adaptation</h3>
+        <p class="todo">Describe a behavioural adaptation. Plants don't move like animals, so think about responses such as growing toward light or water (tropisms), opening or closing at certain times, or timing of flowering and seed release.</p>
+        <p class="todo">Explain how this increases fitness.</p>
+      </section>
+
+        <h2>Natural habitat</h2>
+        <p class="todo">Where does it live in the wild? Describe the habitat and its geographic range.</p>
+
+        <h2>Environmental challenges</h2>
+        <p class="todo">What key challenges does it face in its natural environment? Think about climate, food and water, predators, disease and human impacts.</p>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>A VCE Biology Unit 2 project by Ethan, Charlie and Joseph, based on our excursion to Melbourne Zoo.</p>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
